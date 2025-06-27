@@ -1,31 +1,33 @@
 <VAST version="3.0">
-  <Ad id="static">
-    <InLine>
-      <AdSystem>Static VAST Template</AdSystem>
-      <AdTitle>Static VAST Tag</AdTitle>
-      <Impression><![CDATA[ https://example.com/impression ]]></Impression>
-      <Creatives>
-        <Creative>
-          <Linear skipoffset="00:00:10"> <!-- Skip after 10 seconds -->
-            <Duration>00:00:10</Duration>
-            <TrackingEvents>
-              <Tracking event="start"/>
-              <Tracking event="firstQuartile"/>
-              <Tracking event="midpoint"/>
-              <Tracking event="thirdQuartile"/>
-              <Tracking event="complete"/>
-            </TrackingEvents>
-            <VideoClicks>
-              <ClickThrough><![CDATA[ https://1winpb.com/pCNyCKfd?key={clickID}&sub_id_1={dads}&sub_id_2={kino}&sub_id_3={eng}&sub_id_4={preroll}&sub_id_5={sinsauto}&sub_id_6={id_channel} ]]></ClickThrough>
-            </VideoClicks>
-            <MediaFiles>
-              <MediaFile type="video/mp4" bitrate="1000" width="640" height="360" scalable="true" maintainAspectRatio="true">
-                <![CDATA[ https://michel8899.github.io/test/1win.mp4 ]]>
-              </MediaFile>
-            </MediaFiles>
-          </Linear>
-        </Creative>
-      </Creatives>
-    </InLine>
-  </Ad>
+    <Ad id="static">
+        <InLine>
+            <AdSystem>Static VAST Template</AdSystem>
+            <AdTitle>Static VAST Tag</AdTitle>
+            <Impression><![CDATA[https://example.com/impression]]></Impression>
+            <Creatives>
+                <Creative>
+                    <Linear skipoffset="00:00:10"> <!-- Skip after 10 seconds -->
+                        <Duration>00:00:10</Duration>
+                        <TrackingEvents>
+                            <Tracking event="start"/>
+                            <Tracking event="firstQuartile"/>
+                            <Tracking event="midpoint"/>
+                            <Tracking event="thirdQuartile"/>
+                            <Tracking event="complete"/>
+                            <Tracking event="pause"/>
+                            <Tracking event="mute"/>
+                            <Tracking event="fullscreen"/>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickThrough>https://1winpb.com/pCNyCKfd?key={clickID}&amp;sub_id_1={dads}&amp;sub_id_2={kino}&amp;sub_id_3={eng}&amp;sub_id_4={preroll}&amp;sub_id_5={sinsauto}&amp;sub_id_6={id_channel}</ClickThrough>
+                            <ClickTracking><![CDATA[https://example.com/clickTracking]]></ClickTracking>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile type="video/mp4" bitrate="0" width="640" height="360">https://michel8899.github.io/test/1win.mp4</MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
 </VAST>
