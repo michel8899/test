@@ -17,7 +17,7 @@
               <Tracking event="complete"/>
             </TrackingEvents>
             <VideoClicks>
-              <ClickThrough><![CDATA[ https://1winpb.com/pCNyCKfd?key={clickID}&sub_id_1={dads}&sub_id_2={kino}&sub_id_3={eng}&sub_id_4={preroll}&sub_id_5={sinsauto}&sub_id_6={id_channel} ]]></ClickThrough>
+              <ClickThrough><![CDATA[ https://1wingl.com/MZPcF7bg?cost=[click_cost]&external_id=[click_id]&creative_id=[creative_id]&ad_campaign_id=[campaign_id]&source=[site_id]&pub_id=[pub_id]&campaign_name=[campaign_name]&sub_id_1=dads&sub_id_2=movies&sub_id_3=eng&sub_id_4=preroll&sub_id_5={креатив}&sub_id_6={id_channel}&sub_id_8={site_id}&sub_id_9={zone_id}&sub_id_10={category_id}&sub_id_11={country}&sub_id_12={format} ]]></ClickThrough>
             </VideoClicks>
             <MediaFiles>
               <MediaFile type="video/mp4" bitrate="1000" width="640" height="360" scalable="true" maintainAspectRatio="true">
